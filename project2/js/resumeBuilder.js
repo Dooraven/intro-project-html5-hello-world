@@ -1,4 +1,4 @@
-﻿var bio = {
+var bio = {
 		name : 'Franklin Delano Roosevelt',
 		role : 'Leader of the Free World',
 		contacts : {
@@ -24,10 +24,10 @@
 			var formattedGitHub = HTMLcontactGeneric.replace('%contact%','github').replace('%data%',bio.contacts.github);
 
 			$('#footerContacts').append(formattedMobile,formattedEmail,formattedSkype,formattedGitHub);
-			$('#header').prepend(formattedRole)
-			$('#header').prepend(formattedName)
-			$('#header').append(formattedBioPic)
-			$('#header').append(formattedMessage)
+			$('#header').prepend(formattedRole);
+			$('#header').prepend(formattedName);
+			$('#header').append(formattedBioPic);
+			$('#header').append(formattedMessage);
 			for (skill in this.skills) {
 				var formattedSkills = HTMLskills.replace('%data%', bio.skills[skill]);
 				$('#skills').append(formattedSkills);
@@ -82,10 +82,10 @@ var work = {
 		var formattedDates = HTMLworkDates.replace('%data%', this.jobs[job].dates);
 		var formattedDescription = HTMLworkDescription.replace('%data%', this.jobs[job].description);
 		var formattedEmployerTitle = formattedEmployer + formattedTitle;
-		$('.work-entry:last').append(formattedEmployerTitle)
-		$('.work-entry:last').append(formattedDates)
-		$('.work-entry:last').append(formattedLocation)
-		$('.work-entry:last').append(formattedDescription)
+		$('.work-entry:last').append(formattedEmployerTitle);
+		$('.work-entry:last').append(formattedDates);
+		$('.work-entry:last').append(formattedLocation);
+		$('.work-entry:last').append(formattedDescription);
 		}
 }
 }
@@ -117,9 +117,9 @@ var projects = {
 		var formattedDates = HTMLprojectDates.replace('%data%', this.projects[pro].dates);
 		var formattedDescription = HTMLprojectDescription.replace('%data%', this.projects[pro].description);
 		var formattedImage = HTMLprojectImage.replace('%data%', projects.projects[pro].images);
-        $('.project-entry:last').append(formattedTitle)
-		$('.project-entry:last').append(formattedDates)
-		$('.project-entry:last').append(formattedDescription)
+        $('.project-entry:last').append(formattedTitle);
+		$('.project-entry:last').append(formattedDates);
+		$('.project-entry:last').append(formattedDescription);
 		for (image in projects.projects[pro].images) {
 			var formattedImage = HTMLprojectImage.replace('%data%',projects.projects[pro].images[image]);
 			$('.project-entry:last').append(formattedImage);
