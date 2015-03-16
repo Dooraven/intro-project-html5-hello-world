@@ -1,0 +1,15 @@
+References:
+
+Presidential Seal is the property of the United States Government and as such are considered Public Domain (http://en.wikipedia.org/wiki/Copyright_status_of_work_by_the_U._S._government)
+
+FDR image is public domain: http://en.wikipedia.org/wiki/File:FDR_in_1933.jpg
+
+Wikipedia Quotes are taken from http://en.wikipedia.org/wiki/Franklin_D._Roosevelt under the Creative Commons Share Alike Attribution License;
+
+FDR Electoral College map is public domain: http://en.wikipedia.org/wiki/United_States_presidential_election,_1932#/media/File:ElectoralCollege1932.svg
+
+FDR Hoover image is licensed from Wikipedia under the Creative Commons Share Alike Attribution License;
+
+Navigation bar is adapted from CSS snippets: http://css-snippets.com/simple-horizontal-navigation/
+
+Everything Else is Udacity/My own material
